@@ -1,0 +1,407 @@
+/* Layout */
+#holder {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header {
+	margin-top: 10px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+.home {
+	margin-bottom: 10px;
+}
+.collection img {
+	margin-bottom: 10px;
+}
+.credit {
+	text-align: right;
+}
+.divider {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.arrow {
+	z-index: 100;
+	display: block;
+	position: relative;
+	margin-top: -235px;
+}
+.contact {
+	margin-bottom: 20px;
+	line-height: 1.1em;
+}
+.stores {
+	margin-top: 10px;
+}
+.credits {
+	margin-bottom: 20px;
+}
+.press {
+	margin-bottom: 20px;
+}
+.story {
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+.vertrule {
+	text-align: center;
+}
+.imgright {
+	margin-left: 10px;
+	margin-bottom: 5px;
+	margin-right: 0px;
+	margin-top: 0px;
+	float: right;
+	clear: right;
+}
+.indent {
+	margin-left: 15px;
+	font-style: italic
+}
+ul.storelist {
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-top: -1.5em;
+	list-style-type: none;
+	font-size: 13px;
+	padding: 0;
+}
+
+/* Typography */
+/*
+Regular	 400	 normal
+Italic	 400	 italic
+Semibold	 600	 normal
+Semibold Italic	 600	 italic
+Bold	 700	 normal
+Bold Italic	 700	 italic
+*/
+
+body {
+	background-color: #d4c3b7;
+	color: #62532a;
+	font-family: "adobe-caslon-pro-1","adobe-caslon-pro-2", serif;
+	font-size: 100%;
+}
+p {
+	text-align: left;
+	font-size: 13px;
+	line-height: 1.6em;
+}
+hr {
+	background:#62532a;
+	color: #62532a;
+	margin-bottom: 0px;
+}
+hr.thick {
+	background:#62532a;
+	color: #62532a;
+	margin-bottom: 20px;
+	height: 3px;
+}
+hr.collabdivider {
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.description {
+	font-size: 15px;
+	line-height: 1.25;
+	height: 235px;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #62532a;
+	font-weight: normal;
+}
+h1 {
+	font-size: 60px;
+	font-style: italic;
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+h2 {
+	padding-top: 5px;
+	line-height: 100%;
+	font-size: 28px;
+	text-decoration: none;
+	margin-bottom: .25em;
+	text-transform: uppercase;
+}
+h3 {
+	font-style: italic;
+	font-size: 18px;
+	line-height: 1.25em;
+	margin-bottom: .25em;
+}
+h4 {
+	font-size: 22px;
+	margin-bottom: 5px;
+	text-decoration: underline;
+}
+h5 {
+	margin-bottom: 5px;
+}
+h6 {
+	text-align: center;
+	font-size: 15px;
+	font-style: italic;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.description {
+	text-align: left;
+	font-size: 13px;
+}
+a, a:visited {
+	color: #62532a;
+}
+a:hover {
+	color: #fff;
+}
+.footer {
+	font-size: 12px;
+	height: 180px;
+}
+#nav {
+  	z-index: 100;
+}
+
+/* Navigation */
+ul.nav {
+	color: #fff;
+	width: 100%;
+  	padding: 0px;
+	margin: 0;
+  	list-style-type: none;
+  	font-style: italic;
+  	z-index: 150;
+  	text-align: center;
+}
+ul.nav li {
+	float: left;
+  	width: 16.666%;
+	padding-top: 10px;
+	font-size: 13px;
+	background-color: #d4c3b7;
+/* 	background-color: fuchsia; */
+  	position: relative;
+	z-index: 150;
+}
+ul.nav ul {
+	width: 100%;
+	margin: 0;	
+	padding: 0px;
+  	list-style-type: none;
+  	font-style: italic;
+	border-color: #62532a;
+	border-top-width: 3px;
+	border-left-width: 0;
+	border-bottom-width: 0px;
+	border-right-width: 0;
+	border-style: solid;
+}
+ul.nav li ul li {
+	width: 100%;
+  	display: block;
+	font-size: 13px;
+	position: relative;
+	border-color: #62532a;
+	border-top-width: 0px;
+	border-left-width: 0;
+	border-bottom-width: 1px;
+	border-right-width: 0;
+	border-style: solid;
+}
+li ul { 
+	display: none; 
+}
+ul.nav li a {
+	color: #62532a;
+ 	display: block;
+  	text-decoration: none;
+  	white-space: nowrap;
+}
+ul.nav li a:hover { 
+	color: #fff; 
+  	list-style-type: none;
+}
+li:hover ul {
+  	display: block;
+  	position: absolute;
+}
+li:hover li {
+  	float: none;
+  	font-size: 11px;
+}
+li:hover a { 
+}
+li:hover li a:hover { 
+}
+
+
+ul.dropdown,
+ul.dropdown li,
+ul.dropdown ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ font-style: italic;
+ color: #62532a;
+}
+
+ul.dropdown {
+ position: relative;
+ z-index: 597;
+ float: left;
+}
+
+ul.dropdown li {
+ float: left;
+ font-size: 13px;
+ padding-right: 15px;
+}
+
+ul.dropdown li.hover,
+ul.dropdown li:hover {
+ position: relative;
+ z-index: 599;
+ cursor: default;
+}
+
+ul.dropdown ul {
+ visibility: hidden;
+ position: absolute;
+ top: 100%;
+ left: 0;
+ z-index: 598;
+}
+
+ul.dropdown ul li {
+ float: none;
+}
+
+ul.dropdown ul ul {
+ top: 1px;
+}
+
+ul.dropdown li:hover > ul {
+ visibility: visible;
+}
+
+/* default */ 
+	ul.dropdown li {
+		padding-bottom: 7px;
+	}
+
+	ul.dropdown li.hover,
+	ul.dropdown li:hover {
+	 color: #fff;
+	}
+
+	ul.dropdown a:link,
+	ul.dropdown a:visited	{ color: #62532a; text-decoration: none; }
+	ul.dropdown a:hover		{ color: #fff; }
+	ul.dropdown a:active	{ color: #62532a; }
+
+
+	/* -- level mark -- */
+
+	ul.dropdown ul {
+	 width: 360px;
+	 margin-top: 1px;
+	 background-color: #D4C3B7;
+	}
+
+
+
+/*-------------------------------------------------/
+ * @section		Support Class `dir`
+ * @level sep	ul, .class
+ */
+
+
+ul.dropdown *.dir {
+ padding-right: 20px;
+}
+
+
+/* -- Components override -- */
+
+ul.dropdown-horizontal ul *.dir {
+ padding-right: 15px;
+}
+
+
+/* advanced */
+
+/*-------------------------------------------------/
+ * @section		Base Style Extension
+ */
+
+ul.dropdown li a {
+ display: block;
+}
+
+
+/*-------------------------------------------------/
+ * @section		Base Style Override
+ */
+
+ul.dropdown li {
+ padding-right: 15px;
+ background-color: #D4C3B7;
+}
+
+
+/*-------------------------------------------------/
+ * @section		Base Style Reinitiate: post-override activities
+ */
+
+ul.dropdown li.dir {
+	padding-left: 0;
+	padding-bottom: 0;
+	padding-right: 15px;
+	padding-top: 0;
+}
+
+ul.dropdown ul li.dir {
+ padding-right: 15px;
+}
+
+
+/*-------------------------------------------------/
+ * @section		Custom
+ */
+
+ul.dropdown ul a {
+ width: 129px;
+}
+
+ul.dropdown ul a:hover {}
+
+ul.dropdown ul a.dir {
+ width: 124px;
+}
+
+
+.cf_wrapper {
+	position: relative;
+	height: 633px;
+	z-index: 0;
+}
+.cf_element {
+	width: 950px;
+	height: 633px;
+	background-color: #eee;
+}
+
+#cf1 {
+	width: 950px;
+	height: 633px;
+	margin-bottom: 10px;
+}
