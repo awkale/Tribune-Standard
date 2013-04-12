@@ -1,3 +1,11 @@
 .htaccess
 *.DS_Store
 .DS_Store
+
+html/.DS_Store
+
+html/.DS_Store
+
+html/assets/.DS_Store
+
+html/assets/images/home/.DS_Store
