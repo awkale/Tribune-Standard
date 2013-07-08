@@ -4,13 +4,13 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-.header {
-	margin-top: 10px;
+header {
+	margin-top: 30px;
+}
+.logo {
+	margin: 10px auto 0;
 	text-align: center;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10px;
 }
 .home {
 	margin-bottom: 10px;
