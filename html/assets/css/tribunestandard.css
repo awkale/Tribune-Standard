@@ -31,7 +31,8 @@ header {
 	line-height: 1.1em;
 }
 .stores {
-	margin-top: 10px;
+	margin-top: 50px;
+	margin-bottom: 200px;
 }
 .credits {
 	margin-bottom: 20px;
@@ -147,6 +148,9 @@ h6 {
 	font-style: italic;
 	margin-top: 15px;
 	margin-bottom: 10px;
+}
+.center {
+	text-align: center;
 }
 .description {
 	text-align: left;
